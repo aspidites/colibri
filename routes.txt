@@ -1,0 +1,214 @@
+GET /api/appearance/<string:subdomain>
+-----
+PATCH /api/capital_applications/<int:application_id>
+-----
+POST /api/capital_applications/minimal
+-----
+GET /api/companies/<int:company_id>
+PATCH /api/companies/<int:company_id>
+-----
+GET /api/companies/<int:company_id>/<data_type>/download
+-----
+POST /api/companies/<int:company_id>/analytics_download_tasks
+-----
+GET /api/companies/<int:company_id>/analytics_download_tasks/<task_id>
+-----
+GET /api/companies/<int:company_id>/analytics_permissions
+-----
+POST /api/companies/<int:company_id>/auto_label
+-----
+GET /api/companies/<int:company_id>/auto_label/<string:task_id>
+-----
+PATCH /api/companies/<int:company_id>/capital_application
+-----
+GET /api/companies/<int:company_id>/charts/<string:tab_name>
+-----
+GET /api/companies/<int:company_id>/company_analysis
+POST /api/companies/<int:company_id>/company_analysis
+-----
+GET /api/companies/<int:company_id>/company_analysis/<int:company_analysis_id>/company_analysis_warnings
+-----
+GET /api/companies/<int:company_id>/connectors
+-----
+POST /api/companies/<int:company_id>/connectors/<int:connector_id>/connector_task
+-----
+GET /api/companies/<int:company_id>/contact
+-----
+GET /api/companies/<int:company_id>/data_assets
+-----
+GET /api/companies/<int:company_id>/data_assets_rows
+-----
+GET /api/companies/<int:company_id>/data_labels
+POST /api/companies/<int:company_id>/data_labels
+-----
+GET /api/companies/<int:company_id>/data_sources
+-----
+GET /api/companies/<int:company_id>/docusign/envelope
+-----
+GET /api/companies/<int:company_id>/files
+POST /api/companies/<int:company_id>/files
+-----
+DELETE /api/companies/<int:company_id>/files/<int:file_id>
+PATCH /api/companies/<int:company_id>/files/<int:file_id>
+-----
+GET /api/companies/<int:company_id>/files/<int:file_id>/download
+-----
+POST /api/companies/<int:company_id>/files/bulk_download
+-----
+GET /api/companies/<int:company_id>/files/bulk_download/<task_id>
+-----
+GET /api/companies/<int:company_id>/financial_insights
+-----
+GET /api/companies/<int:company_id>/has_quickbooks_connectors
+-----
+GET /api/companies/<int:company_id>/insights/charts
+-----
+GET /api/companies/<int:company_id>/investor/portfolio/invites
+POST /api/companies/<int:company_id>/investor/portfolio/invites
+-----
+POST /api/companies/<int:company_id>/investor/portfolio/invites/send
+-----
+GET /api/companies/<int:company_id>/investors
+-----
+GET /api/companies/<int:company_id>/matches/<string:match_uuid>
+-----
+GET /api/companies/<int:company_id>/matches/sections/<string:section>
+-----
+POST /api/companies/<int:company_id>/notices
+-----
+GET /api/companies/<int:company_id>/notices/<string:notice_name>
+-----
+POST /api/companies/<int:company_id>/onboarding/mnda
+-----
+GET /api/companies/<int:company_id>/portal/syndication/legal-agreements
+POST /api/companies/<int:company_id>/portal/syndication/legal-agreements
+-----
+GET /api/companies/<int:company_id>/portfolio
+-----
+GET /api/companies/<int:company_id>/portfolio-connectors
+-----
+GET /api/companies/<int:company_id>/principal-investments
+-----
+GET /api/companies/<int:company_id>/settings/appearance
+-----
+GET /api/companies/<int:company_id>/syndication/dataroom
+-----
+PATCH /api/companies/<int:company_id>/syndication/investors
+-----
+GET /api/companies/<int:company_id>/syndication/match_investors
+-----
+GET /api/companies/<int:company_id>/syndication/matches
+-----
+GET /api/companies/<int:company_id>/syndication/matches/<int:match_id>/events
+-----
+GET /api/companies/<int:company_id>/syndication/matches/<int:match_id>/files
+-----
+GET /api/companies/<int:company_id>/syndication/matches/new_matches
+-----
+GET /api/companies/<int:company_id>/syndication/shareable_url
+-----
+PATCH /api/companies/<int:company_id>/tags
+-----
+GET /api/companies/<int:company_id>/users
+-----
+GET /api/companies/kpis
+-----
+GET /api/companies/search
+-----
+GET /api/connectors
+-----
+POST /api/cost-of-equity
+-----
+POST /api/frontend/events
+-----
+GET /api/investor/portfolio/<int:company_id>/invite-url
+-----
+POST /api/otp
+-----
+GET /api/permissions/block/companies/<int:company_id>/investors
+-----
+GET /api/session
+POST /api/session
+DELETE /api/session
+-----
+PATCH /api/user/<int:user_id>
+-----
+POST /api/users
+-----
+GET /api/users/<int:user_id>
+-----
+GET /api/users/<string:token>/tos
+-----
+GET /api/users/change_email
+POST /api/users/change_email
+-----
+PATCH /api/users/password
+-----
+GET /api/users/resend_verify_email
+-----
+POST /api/users/verify-email
+-----
+POST /api/v1/calculate_max_debt
+-----
+POST /api/v1/companies/<int:company_id>/connectors
+-----
+DELETE /api/v1/companies/<int:company_id>/connectors/<int:connector_id>
+-----
+POST /api/v1/companies/<int:company_id>/connectors/<int:connector_id>/disconnect
+-----
+POST /api/v1/companies/<int:company_id>/connectors/connect_url
+-----
+GET /api/v1/companies/<int:company_id>/extra
+-----
+GET /api/v1/companies/<int:company_id>/financial_documents
+-----
+GET /api/v1/companies/<int:company_id>/funding_opportunities
+-----
+GET /api/v1/companies/<int:company_id>/public_finances
+-----
+GET /api/v1/companies/<int:company_id>/public_info
+-----
+GET /api/v1/companies/<int:company_id>/reports
+-----
+GET /api/v1/companies/<int:company_id>/reports/<string:report_id>
+-----
+POST /api/v1/companies/<int:company_id>/reports/<string:report_id>/download_url
+-----
+POST /api/v1/companies/<int:company_id>/reports/<string:report_type>
+-----
+PATCH /api/v1/companies/<int:company_id>/signup
+-----
+GET /api/v1/companies/<int:company_id>/teaser_profile
+PUT /api/v1/companies/<int:company_id>/teaser_profile
+-----
+POST /api/v1/companies/onboarding_prefill
+-----
+GET /api/v1/companies/public_info
+-----
+GET /api/v1/companies/public_teaser_profile
+-----
+GET /api/v1/connector_configs
+-----
+POST /api/v1/public_analytics_download_tasks
+-----
+GET /api/v1/public_analytics_download_tasks/<task_id>
+-----
+POST /api/v1/signup
+-----
+POST /api/v2/companies/<int:company_id>/analytics_download_tasks
+-----
+GET /api/v2/companies/<int:company_id>/analytics_download_tasks/<task_id>
+-----
+POST /api/v5/admin_capital_applications
+-----
+GET /internal_api/company/<int:company_id>
+PATCH /internal_api/company/<int:company_id>
+-----
+PATCH /internal_api/connector/<int:connector_id>
+-----
+POST /internal_api/create_or_update_data_assets
+-----
+GET /internal_api/health_check
+-----
+GET /static/<path:filename>
+-----

@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "colibri"
+version = "0.1.0"
+description = ""
+authors = ["Edwin Marshall <emarshall85@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.1"
+uvicorn = {extras = ["standard"], version = "^0.27.0.post1"}
+sqlmodel = "^0.0.14"
+psycopg = {extras = ["binary"], version = "^3.1.17"}
+alembic = "^1.13.1"
+pydantic-settings = "^2.1.0"
+fastapi-crudrouter = {git = "https://github.com/furkan-guvenc/fastapi-crudrouter.git"}
+fastcrud = "^0.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.0"
+
+[tool.ruff.lint]
+dummy-variable-rgx = "^_$"
+
+[tool.ruff.lint.isort]
+case-sensitive = true
+combine-as-imports = true
+force-sort-within-sections = true
+force-wrap-aliases = true
+
+[tool.poe.tasks]
+check = "ruff check ."
+format = "ruff format ."
+dev = "uvicorn colibri.app:app --reload --workers 1 --host 0.0.0.0 --port 4001"
+create-migration = "alembic revision --autogenerate"
+migrate = "alembic upgrade head"
+
+[tool.poe.tasks.lint]
+shell = """
+poe check &
+poe format
+wait $(jobs -p)
+"""
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

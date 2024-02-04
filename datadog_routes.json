@@ -1,0 +1,824 @@
+[
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/appearance/<string:subdomain>"
+    },
+    {
+      "method": "GET",
+      "path": "/api/appearance/<string:subdomain>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/capital_applications/<int:application_id>"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/capital_applications/<int:application_id>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/capital_applications/minimal"
+    },
+    {
+      "method": "POST",
+      "path": "/api/capital_applications/minimal"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/<data_type>/download"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks/<task_id>"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/analytics_permissions"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/auto_label"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/auto_label"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/auto_label/<string:task_id>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/capital_application"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/capital_application"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/charts/<string:tab_name>"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/company_analysis"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/company_analysis"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/company_analysis"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/company_analysis/<int:company_analysis_id>/company_analysis_warnings"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/connectors"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/connectors/<int:connector_id>/connector_task"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/connectors/<int:connector_id>/connector_task"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/contact"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_assets"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_assets_rows"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_labels"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_labels"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/data_labels"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_sources"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/docusign/envelope"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/files"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files"
+    }
+  ],
+  [
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>/download"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/files/bulk_download"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files/bulk_download/<task_id>"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/financial_insights"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/has_quickbooks_connectors"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/insights/charts"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/send"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/send"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/investors"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/matches/sections/<string:section>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/notices"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/notices"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/notices/<string:notice_name>"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/notices/<string:notice_name>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/mnda"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/onboarding/mnda"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements"
+    },
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portfolio"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portfolio-connectors"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/principal-investments"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/settings/appearance"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/dataroom"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/investors"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/syndication/investors"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/match_investors"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/events"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/files"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches/new_matches"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/shareable_url"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/tags"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/tags"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/users"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/kpis"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/companies/search"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/connectors"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/cost-of-equity"
+    },
+    {
+      "method": "POST",
+      "path": "/api/cost-of-equity"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/frontend/events"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/frontend/events"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/investor/portfolio/<int:company_id>/invite-url"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/otp"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/otp"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/session"
+    },
+    {
+      "method": "GET",
+      "path": "/api/session"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/session"
+    },
+    {
+      "method": "POST",
+      "path": "/api/session"
+    }
+  ],
+  [
+    {
+      "method": "PATCH",
+      "path": "/api/user/<int:user_id>"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/user/<int:user_id>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/users"
+    },
+    {
+      "method": "POST",
+      "path": "/api/users"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/users/<int:user_id>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/<string:token>/tos"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/<string:token>/tos"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/users/change_email"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/change_email"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/change_email"
+    }
+  ],
+  [
+    {
+      "method": "PATCH",
+      "path": "/api/users/password"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/password"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/users/resend_verify_email"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/users/verify-email"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/verify-email"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/calculate_max_debt"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/calculate_max_debt"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/connectors"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/connectors"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/connectors/<int:connector_id>"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/companies/<int:company_id>/connectors/<int:connector_id>"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/connectors/<int:connector_id>/disconnect"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/connectors/connect_url"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/connectors/connect_url"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/extra"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/financial_documents"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/public_finances"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/public_info"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/reports"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_id>"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_id>/download_url"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_type>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/signup"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/companies/<int:company_id>/signup"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/onboarding_prefill"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/onboarding_prefill"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/public_info"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/public_teaser_profile"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/public_teaser_profile"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/connector_configs"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/public_analytics_download_tasks"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/public_analytics_download_tasks"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v1/public_analytics_download_tasks/<task_id>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/signup"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/signup"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks/<task_id>"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v5/admin_capital_applications"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v5/admin_capital_applications"
+    }
+  ],
+  [
+    {
+      "method": "PATCH",
+      "path": "/internal_api/company/<int:company_id>"
+    },
+    {
+      "method": "GET",
+      "path": "/internal_api/company/<int:company_id>"
+    }
+  ],
+  [
+    {
+      "method": "PATCH",
+      "path": "/internal_api/connector/<int:connector_id>"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/internal_api/create_or_update_data_assets"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/internal_api/health_check"
+    }
+  ],
+  [
+    {
+      "method": "GET",
+      "path": "/static/<path:filename>"
+    }
+  ]
+]

@@ -1,0 +1,3449 @@
+[
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/portal/syndication/matches/toc/version",
+      "function": "api.get_current_match_toc_version"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/portal/syndication/matches/toc/version",
+      "function": "api.get_current_match_toc_version"
+    },
+    {
+      "method": "GET",
+      "path": "/api/portal/syndication/matches/toc/version",
+      "function": "api.get_current_match_toc_version"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/docusign/envelope/event",
+      "function": "api.get_docusign_event"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/docusign/envelope/event",
+      "function": "api.get_docusign_event"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/docusign/envelope/event",
+      "function": "api.get_docusign_event"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/connector/oauth/google/analytics",
+      "function": "api.google_analytics_url"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/connector/oauth/google/analytics",
+      "function": "api.google_analytics_url"
+    },
+    {
+      "method": "GET",
+      "path": "/api/connector/oauth/google/analytics",
+      "function": "api.google_analytics_url"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/connector/oauth/google/adsense",
+      "function": "api.google_adsense_url"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/connector/oauth/google/adsense",
+      "function": "api.google_adsense_url"
+    },
+    {
+      "method": "GET",
+      "path": "/api/connector/oauth/google/adsense",
+      "function": "api.google_adsense_url"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/users/profile/auth/xero",
+      "function": "api.connect_xero_to_user"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/profile/auth/xero",
+      "function": "api.connect_xero_to_user"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/syndication/investors",
+      "function": "api.add_syndication_investor"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/syndication/investors",
+      "function": "api.add_syndication_investor"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/docusign/notification",
+      "function": "api.notification"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/docusign/notification",
+      "function": "api.notification"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/docusign/authorization/access_token",
+      "function": "api.get_access_token"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/docusign/authorization/access_token",
+      "function": "api.get_access_token"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/matches/status/history",
+      "function": "api.create_match_status_history_item"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/matches/status/history",
+      "function": "api.create_match_status_history_item"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/users/profile/company",
+      "function": "api.get_my_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/profile/company",
+      "function": "api.get_my_company"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/profile/company",
+      "function": "api.get_my_company"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/public_teaser_profile",
+      "function": "api.get_company_public_teaser_profile"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/public_teaser_profile",
+      "function": "api.get_company_public_teaser_profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/public_teaser_profile",
+      "function": "api.get_company_public_teaser_profile"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/onboarding_prefill",
+      "function": "api.post_zoominfo_contact"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/onboarding_prefill",
+      "function": "api.post_zoominfo_contact"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/internal_api/companies/search",
+      "function": "internal.get_list_of_companies"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/companies/search",
+      "function": "internal.get_list_of_companies"
+    },
+    {
+      "method": "GET",
+      "path": "/internal_api/companies/search",
+      "function": "internal.get_list_of_companies"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/capital_applications/minimal",
+      "function": "api.create_capital_application_minimal"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/capital_applications/minimal",
+      "function": "api.create_capital_application_minimal"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/connector_tasks/pull_netsuite_and_quickbooks",
+      "function": "api.etsuite_quickbooks_connectors"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/connector_tasks/pull_netsuite_and_quickbooks",
+      "function": "api.etsuite_quickbooks_connectors"
+    },
+    {
+      "method": "GET",
+      "path": "/api/connector_tasks/pull_netsuite_and_quickbooks",
+      "function": "api.etsuite_quickbooks_connectors"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/connector_tasks/pull_everything",
+      "function": "api.pull_everything"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/connector_tasks/pull_everything",
+      "function": "api.pull_everything"
+    },
+    {
+      "method": "GET",
+      "path": "/api/connector_tasks/pull_everything",
+      "function": "api.pull_everything"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/connector_tasks/pull_new",
+      "function": "api.pull_new"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/connector_tasks/pull_new",
+      "function": "api.pull_new"
+    },
+    {
+      "method": "GET",
+      "path": "/api/connector_tasks/pull_new",
+      "function": "api.pull_new"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/connector_tasks/restart",
+      "function": "api.connectors_restart"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/connector_tasks/restart",
+      "function": "api.connectors_restart"
+    },
+    {
+      "method": "GET",
+      "path": "/api/connector_tasks/restart",
+      "function": "api.connectors_restart"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/balance-sheet-partners",
+      "function": "api.add_balance_sheet_partner"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/balance-sheet-partners",
+      "function": "api.add_balance_sheet_partner"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/search",
+      "function": "api.search_companies"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/search",
+      "function": "api.search_companies"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/search",
+      "function": "api.search_companies"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/signup",
+      "function": "api.create_account_for_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/signup",
+      "function": "api.create_account_for_company"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/kpis",
+      "function": "api.get_kpis"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/kpis",
+      "function": "api.get_kpis"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/kpis",
+      "function": "api.get_kpis"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/docusign/authorization",
+      "function": "api.get_url_login"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/docusign/authorization",
+      "function": "api.get_url_login"
+    },
+    {
+      "method": "GET",
+      "path": "/api/docusign/authorization",
+      "function": "api.get_url_login"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/docusign/connector",
+      "function": "api.get_connector"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/docusign/connector",
+      "function": "api.get_connector"
+    },
+    {
+      "method": "GET",
+      "path": "/api/docusign/connector",
+      "function": "api.get_connector"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/frontend/events",
+      "function": "api.create_frontend_event"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/frontend/events",
+      "function": "api.create_frontend_event"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/matches/comment",
+      "function": "api.create_match_comment"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/matches/comment",
+      "function": "api.create_match_comment"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/session/xero",
+      "function": "api.xero_sign_in"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/session/xero",
+      "function": "api.xero_sign_in"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/emails/acceptability",
+      "function": "api.is_email_address_allowed"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/emails/acceptability",
+      "function": "api.is_email_address_allowed"
+    },
+    {
+      "method": "GET",
+      "path": "/api/emails/acceptability",
+      "function": "api.is_email_address_allowed"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/users/resend_verify_email",
+      "function": "api.resend_verify_email"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/resend_verify_email",
+      "function": "api.resend_verify_email"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/resend_verify_email",
+      "function": "api.resend_verify_email"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/users/verify-email",
+      "function": "api.verify-email"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/verify-email",
+      "function": "api.verify-email"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/users/change_email",
+      "function": "api.generate_change_email_token"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/change_email",
+      "function": "api.generate_change_email_token"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/users/change_email",
+      "function": "api.verify_change_email_token"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/change_email",
+      "function": "api.verify_change_email_token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/change_email",
+      "function": "api.verify_change_email_token"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/password",
+      "function": "api.reset_password"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/users/password",
+      "function": "api.reset_password"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/profile",
+      "function": "api.update_me"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/users/profile",
+      "function": "api.update_me"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/users/profile",
+      "function": "api.get_my_user"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/profile",
+      "function": "api.get_my_user"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/profile",
+      "function": "api.get_my_user"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/users/signup",
+      "function": "api.xero_sign_up"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/signup",
+      "function": "api.xero_sign_up"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/otp/syndication_investor",
+      "function": "api.otp_syndication_investor_set_password"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/otp/syndication_investor",
+      "function": "api.otp_syndication_investor_set_password"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/public_analytics_download_tasks",
+      "function": "api.start_public_download"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/public_analytics_download_tasks",
+      "function": "api.start_public_download"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v5/admin_capital_applications",
+      "function": "api.admin_create_capital_application_v5"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v5/admin_capital_applications",
+      "function": "api.admin_create_capital_application_v5"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/zoominfo_data_pull",
+      "function": "api.zoominfo_data_pull"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/zoominfo_data_pull",
+      "function": "api.zoominfo_data_pull"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/calculate_max_debt",
+      "function": "api.calculate_max_debt"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/calculate_max_debt",
+      "function": "api.calculate_max_debt"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/connector_configs",
+      "function": "api.list_connector_configs"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/connector_configs",
+      "function": "api.list_connector_configs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/connector_configs",
+      "function": "api.list_connector_configs"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/signup",
+      "function": "api.signupv5"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/signup",
+      "function": "api.signupv5"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/internal_api/create_or_update_data_assets",
+      "function": "internal.create_data_asset"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/create_or_update_data_assets",
+      "function": "internal.create_data_asset"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/internal_api/health_check",
+      "function": "internal.health_check"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/health_check",
+      "function": "internal.health_check"
+    },
+    {
+      "method": "GET",
+      "path": "/internal_api/health_check",
+      "function": "internal.health_check"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/internal_api/api_keys",
+      "function": "internal.create_service_api_key"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/api_keys",
+      "function": "internal.create_service_api_key"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/shopify_install",
+      "function": "api.shopify_install"
+    },
+    {
+      "method": "HEAD",
+      "path": "/api/shopify_install",
+      "function": "api.shopify_install"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/shopify_install",
+      "function": "api.shopify_install"
+    },
+    {
+      "method": "GET",
+      "path": "/api/shopify_install",
+      "function": "api.shopify_install"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/cost_of_equity",
+      "function": "api.save_cost_of_equity"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/cost_of_equity",
+      "function": "api.save_cost_of_equity"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/cost-of-equity",
+      "function": "api.cost_of_equity"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/cost-of-equity",
+      "function": "api.cost_of_equity"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/health_check",
+      "function": "api.healthcheck_GET"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/health_check",
+      "function": "api.healthcheck_GET"
+    },
+    {
+      "method": "GET",
+      "path": "/api/health_check",
+      "function": "api.healthcheck_GET"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/user_summary",
+      "function": "api.post_user_summary"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/user_summary",
+      "function": "api.post_user_summary"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/connectors",
+      "function": "api.get_connectors_name"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/connectors",
+      "function": "api.get_connectors_name"
+    },
+    {
+      "method": "GET",
+      "path": "/api/connectors",
+      "function": "api.get_connectors_name"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/session",
+      "function": "api.session_GET"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/session",
+      "function": "api.session_GET"
+    },
+    {
+      "method": "GET",
+      "path": "/api/session",
+      "function": "api.session_GET"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/session",
+      "function": "api.session_POST"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/session",
+      "function": "api.session_POST"
+    }
+  ],
+  [
+    {
+      "method": "DELETE",
+      "path": "/api/session",
+      "function": "api.session_DELETE"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/session",
+      "function": "api.session_DELETE"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/users",
+      "function": "api.create_user"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users",
+      "function": "api.create_user"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/user",
+      "function": "api.create_user"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/user",
+      "function": "api.create_user"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/otp",
+      "function": "api.otp_reset_password"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/otp",
+      "function": "api.otp_reset_password"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:match_uuid>/syndication_investor/charts/<string:tab_name>",
+      "function": "api.onboarding_get_charts_in_tab_name_for_syndication_investor_of_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:match_uuid>/syndication_investor/charts/<string:tab_name>",
+      "function": "api.onboarding_get_charts_in_tab_name_for_syndication_investor_of_match"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:match_uuid>/syndication_investor/charts/<string:tab_name>",
+      "function": "api.onboarding_get_charts_in_tab_name_for_syndication_investor_of_match"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/company/charts/<string:tab_name>",
+      "function": "api.portal_get_charts_in_tab_name_for_company_of_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/company/charts/<string:tab_name>",
+      "function": "api.portal_get_charts_in_tab_name_for_company_of_match"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/company/charts/<string:tab_name>",
+      "function": "api.portal_get_charts_in_tab_name_for_company_of_match"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/survey/responses",
+      "function": "api.admin_get_survey_matches_responses"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/survey/responses",
+      "function": "api.admin_get_survey_matches_responses"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/survey/responses",
+      "function": "api.admin_get_survey_matches_responses"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/accepted",
+      "function": "api.onboarding_get_syndication_investors_matches_matched"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/accepted",
+      "function": "api.onboarding_get_syndication_investors_matches_matched"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/accepted",
+      "function": "api.onboarding_get_syndication_investors_matches_matched"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/action",
+      "function": "api.onboarding_response_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/action",
+      "function": "api.onboarding_response_match"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:match_uuid>/syndication_investor",
+      "function": "api.onboarding_get_syndication_investor"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:match_uuid>/syndication_investor",
+      "function": "api.onboarding_get_syndication_investor"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:match_uuid>/syndication_investor",
+      "function": "api.onboarding_get_syndication_investor"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:uuid>/view",
+      "function": "api.onboarding_set_match_view"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:uuid>/view",
+      "function": "api.onboarding_set_match_view"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches/<string:uuid>/view",
+      "function": "api.onboarding_set_match_view"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/bulk",
+      "function": "api.create_investor_invites_in_bulk"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/bulk",
+      "function": "api.create_investor_invites_in_bulk"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/send",
+      "function": "api.mark_portfolio_investor_invite_as_pending"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/send",
+      "function": "api.mark_portfolio_investor_invite_as_pending"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/accepted",
+      "function": "api.portal_get_syndication_investors_matches_matched"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/accepted",
+      "function": "api.portal_get_syndication_investors_matches_matched"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/accepted",
+      "function": "api.portal_get_syndication_investors_matches_matched"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/action",
+      "function": "api.portal_response_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/action",
+      "function": "api.portal_response_match"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/investor-expresses-interest",
+      "function": "api.portal_investor_expresses_interest_in_company_details"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/investor-expresses-interest",
+      "function": "api.portal_investor_expresses_interest_in_company_details"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/company",
+      "function": "api.portal_get_syndication_investor"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/company",
+      "function": "api.portal_get_syndication_investor"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/company",
+      "function": "api.portal_get_syndication_investor"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/files",
+      "function": "api.portal_add_opt_out_of_fee_files"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/files",
+      "function": "api.portal_add_opt_out_of_fee_files"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/files",
+      "function": "api.portal_get_opt_out_of_fee_files"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/files",
+      "function": "api.portal_get_opt_out_of_fee_files"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:match_uuid>/files",
+      "function": "api.portal_get_opt_out_of_fee_files"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:uuid>/view",
+      "function": "api.portal_set_match_view"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:uuid>/view",
+      "function": "api.portal_set_match_view"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches/<string:uuid>/view",
+      "function": "api.portal_set_match_view"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/portal/syndication/matches/<string:match_uuid>/charts/syndication-pre-intro",
+      "function": "api.portal_get_company_pre_intro_charts_a_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/portal/syndication/matches/<string:match_uuid>/charts/syndication-pre-intro",
+      "function": "api.portal_get_company_pre_intro_charts_a_match"
+    },
+    {
+      "method": "GET",
+      "path": "/api/portal/syndication/matches/<string:match_uuid>/charts/syndication-pre-intro",
+      "function": "api.portal_get_company_pre_intro_charts_a_match"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/syndication_investor/<string:token>/portal/syndication/redirect_to",
+      "function": "api.portal_get_syndication_investors_redirect_to"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/syndication_investor/<string:token>/portal/syndication/redirect_to",
+      "function": "api.portal_get_syndication_investors_redirect_to"
+    },
+    {
+      "method": "GET",
+      "path": "/api/syndication_investor/<string:token>/portal/syndication/redirect_to",
+      "function": "api.portal_get_syndication_investors_redirect_to"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/syndication_investor/<string:token>/portal/syndication/matches",
+      "function": "api.portal_get_syndication_investors_matches_with_token"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/syndication_investor/<string:token>/portal/syndication/matches",
+      "function": "api.portal_get_syndication_investors_matches_with_token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/syndication_investor/<string:token>/portal/syndication/matches",
+      "function": "api.portal_get_syndication_investors_matches_with_token"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors/<int:investor_user_id>",
+      "function": "api.set_category_permissions_for_user"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors/<int:investor_user_id>",
+      "function": "api.set_category_permissions_for_user"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors/<int:investor_user_id>",
+      "function": "api.check_block_permissions"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors/<int:investor_user_id>",
+      "function": "api.check_block_permissions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors/<int:investor_user_id>",
+      "function": "api.check_block_permissions"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors",
+      "function": "api.set_admin_category_permissions_for_user"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors",
+      "function": "api.set_admin_category_permissions_for_user"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors",
+      "function": "api.check_admin_block_permissions"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors",
+      "function": "api.check_admin_block_permissions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/permissions/block/companies/<int:company_id>/investors",
+      "function": "api.check_admin_block_permissions"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners/assignable",
+      "function": "api.get_all_assignable_balance_sheet_partners_for_investment"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners/assignable",
+      "function": "api.get_all_assignable_balance_sheet_partners_for_investment"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners/assignable",
+      "function": "api.get_all_assignable_balance_sheet_partners_for_investment"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/syndication/matches/notifications",
+      "function": "api.sent_notification_matches"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/notifications",
+      "function": "api.sent_notification_matches"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/matches/new_matches",
+      "function": "api.get_new_candidates_matches_for_a_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/new_matches",
+      "function": "api.get_new_candidates_matches_for_a_company"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches/new_matches",
+      "function": "api.get_new_candidates_matches_for_a_company"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/status",
+      "function": "api.admin_update_matches_status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/syndication/matches/status",
+      "function": "api.admin_update_matches_status"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/events",
+      "function": "api.admin_get_events_for_a_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/events",
+      "function": "api.admin_get_events_for_a_match"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/events",
+      "function": "api.admin_get_events_for_a_match"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/status",
+      "function": "api.admin_update_match_status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/status",
+      "function": "api.admin_update_match_status"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<string:match_uuid>/survey",
+      "function": "api.add_survey_responses"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<string:match_uuid>/survey",
+      "function": "api.add_survey_responses"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/files",
+      "function": "api.admin_get_opt_out_of_fee_files"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/files",
+      "function": "api.admin_get_opt_out_of_fee_files"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches/<int:match_id>/files",
+      "function": "api.admin_get_opt_out_of_fee_files"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches",
+      "function": "api.onboarding_get_syndication_investors_matches"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches",
+      "function": "api.onboarding_get_syndication_investors_matches"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/onboarding/syndication/matches",
+      "function": "api.onboarding_get_syndication_investors_matches"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portfolio/available/companies",
+      "function": "api.get_company_available_to_add_portfolio"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portfolio/available/companies",
+      "function": "api.get_company_available_to_add_portfolio"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portfolio/available/companies",
+      "function": "api.get_company_available_to_add_portfolio"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/show_onboarding",
+      "function": "api.get_portfolio_monitoring_investor_has_sent_invites"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/show_onboarding",
+      "function": "api.get_portfolio_monitoring_investor_has_sent_invites"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/show_onboarding",
+      "function": "api.get_portfolio_monitoring_investor_has_sent_invites"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/<int:investor_invite_id>",
+      "function": "api.admin_update_investor_invite"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites/<int:investor_invite_id>",
+      "function": "api.admin_update_investor_invite"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites",
+      "function": "api.get_portfolio_monitoring_investor_invites"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites",
+      "function": "api.get_portfolio_monitoring_investor_invites"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites",
+      "function": "api.get_portfolio_monitoring_investor_invites"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites",
+      "function": "api.create_investor_invite"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investor/portfolio/invites",
+      "function": "api.create_investor_invite"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/charts/syndication-pre-intro",
+      "function": "api.get_company_pre_intro_charts_a_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/charts/syndication-pre-intro",
+      "function": "api.get_company_pre_intro_charts_a_match"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/charts/syndication-pre-intro",
+      "function": "api.get_company_pre_intro_charts_a_match"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements",
+      "function": "api.portal_investor_accepts_legal_conditions"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements",
+      "function": "api.portal_investor_accepts_legal_conditions"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements",
+      "function": "api.portal_investor_gets_pending_legal_conditions"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements",
+      "function": "api.portal_investor_gets_pending_legal_conditions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/legal-agreements",
+      "function": "api.portal_investor_gets_pending_legal_conditions"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches",
+      "function": "api.portal_get_syndication_investors_matches"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches",
+      "function": "api.portal_get_syndication_investors_matches"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portal/syndication/matches",
+      "function": "api.portal_get_syndication_investors_matches"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/investor/portfolio/invites/<string:invitation_hash>/is-redeemed",
+      "function": "api.get_is_invite_redeemed"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/investor/portfolio/invites/<string:invitation_hash>/is-redeemed",
+      "function": "api.get_is_invite_redeemed"
+    },
+    {
+      "method": "GET",
+      "path": "/api/investor/portfolio/invites/<string:invitation_hash>/is-redeemed",
+      "function": "api.get_is_invite_redeemed"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>/refresh_highlights",
+      "function": "api.refresh_funding_opportunity"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>/refresh_highlights",
+      "function": "api.refresh_funding_opportunity"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>/send_email",
+      "function": "api.send_funding_opportunity_email"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>/send_email",
+      "function": "api.send_funding_opportunity_email"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/connectors/connect_url",
+      "function": "api.create_connect_url"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/connectors/connect_url",
+      "function": "api.create_connect_url"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/connectors/<int:connector_id>/disconnect",
+      "function": "api.disconnect_connector_v2"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/connectors/<int:connector_id>/disconnect",
+      "function": "api.disconnect_connector_v2"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/matches/<string:match_uuid>/public_analytics_download_tasks",
+      "function": "api.start_analytics_download_new_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/matches/<string:match_uuid>/public_analytics_download_tasks",
+      "function": "api.start_analytics_download_new_match"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_id>/download_url",
+      "function": "api.get_creditbox_report_download_url"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_id>/download_url",
+      "function": "api.get_creditbox_report_download_url"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/syndication/matches/out_reasons/<string:match_out_reason_type>",
+      "function": "api.get_match_out_reasons"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/syndication/matches/out_reasons/<string:match_out_reason_type>",
+      "function": "api.get_match_out_reasons"
+    },
+    {
+      "method": "GET",
+      "path": "/api/syndication/matches/out_reasons/<string:match_out_reason_type>",
+      "function": "api.get_match_out_reasons"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners/<int:balance_sheet_partner_id>",
+      "function": "api.mark_interested_balance_sheet_partner_with_status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners/<int:balance_sheet_partner_id>",
+      "function": "api.mark_interested_balance_sheet_partner_with_status"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners",
+      "function": "api.get_investment_balance_sheet_partners"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners",
+      "function": "api.get_investment_balance_sheet_partners"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners",
+      "function": "api.get_investment_balance_sheet_partners"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners",
+      "function": "api.add_balance_sheet_partner_to_principal_investment"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/principal-investments/balance-sheet-partners",
+      "function": "api.add_balance_sheet_partner_to_principal_investment"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/company_analysis/<int:company_analysis_id>/company_analysis_warnings",
+      "function": "api.get_company_analysis_warnings"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/company_analysis/<int:company_analysis_id>/company_analysis_warnings",
+      "function": "api.get_company_analysis_warnings"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/company_analysis/<int:company_analysis_id>/company_analysis_warnings",
+      "function": "api.get_company_analysis_warnings"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/data_mappings/data_asset/<int:data_asset_id>",
+      "function": "api.get_data_mappings_for_data_asset"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_mappings/data_asset/<int:data_asset_id>",
+      "function": "api.get_data_mappings_for_data_asset"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_mappings/data_asset/<int:data_asset_id>",
+      "function": "api.get_data_mappings_for_data_asset"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/update-company-syndication-status",
+      "function": "api.update_company_syndication_status_route"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/syndication/update-company-syndication-status",
+      "function": "api.update_company_syndication_status_route"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/skip-legal-agreements-request",
+      "function": "api.admin_update_skip_syndication_legal_agreements_request"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/syndication/skip-legal-agreements-request",
+      "function": "api.admin_update_skip_syndication_legal_agreements_request"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/syndication/archive_investors/<string:match_uuid>",
+      "function": "api.company_sets_pass_reasons_for_investor_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/archive_investors/<string:match_uuid>",
+      "function": "api.company_sets_pass_reasons_for_investor_match"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/syndication/archive_companies/<string:match_uuid>",
+      "function": "api.investor_sets_pass_reasons_for_company_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/archive_companies/<string:match_uuid>",
+      "function": "api.investor_sets_pass_reasons_for_company_match"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/match_investors/<string:match_uuid>",
+      "function": "api.get_syndication_investor_matched_for_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/match_investors/<string:match_uuid>",
+      "function": "api.get_syndication_investor_matched_for_company"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/match_investors/<string:match_uuid>",
+      "function": "api.get_syndication_investor_matched_for_company"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/syndication/shareable_token",
+      "function": "api.get_syndication_shareable_token"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/shareable_token",
+      "function": "api.get_syndication_shareable_token"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/match_investors",
+      "function": "api.get_syndication_investors_matched_for_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/match_investors",
+      "function": "api.get_syndication_investors_matched_for_company"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/match_investors",
+      "function": "api.get_syndication_investors_matched_for_company"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/shareable_url",
+      "function": "api.get_syndication_shareable_url"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/shareable_url",
+      "function": "api.get_syndication_shareable_url"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/shareable_url",
+      "function": "api.get_syndication_shareable_url"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/investors",
+      "function": "api.update_syndication_investor"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/syndication/investors",
+      "function": "api.update_syndication_investor"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/dataroom",
+      "function": "api.get_company_dataroom_files"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/dataroom",
+      "function": "api.get_company_dataroom_files"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/dataroom",
+      "function": "api.get_company_dataroom_files"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/syndication/matches",
+      "function": "api.get_syndication_investors_matches"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/syndication/matches",
+      "function": "api.get_syndication_investors_matches"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/syndication/matches",
+      "function": "api.get_syndication_investors_matches"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/onboarding/mnda",
+      "function": "api.post_company_contact_sign_mnda"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding/mnda",
+      "function": "api.post_company_contact_sign_mnda"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/connectors/<int:connector_id>/connector_task",
+      "function": "api.create_connector_task_route"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/connectors/<int:connector_id>/connector_task",
+      "function": "api.create_connector_task_route"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/investors/subdomains",
+      "function": "api.add_company_to_portfolio_investor_subdomain"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investors/subdomains",
+      "function": "api.add_company_to_portfolio_investor_subdomain"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/settings/appearance",
+      "function": "api.get_appearance"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/settings/appearance",
+      "function": "api.get_appearance"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/settings/appearance",
+      "function": "api.get_appearance"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/settings/appearance",
+      "function": "api.add_appearance"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/settings/appearance",
+      "function": "api.add_appearance"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/docusign/envelope",
+      "function": "api.get_docusign_envelope"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/docusign/envelope",
+      "function": "api.get_docusign_envelope"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/docusign/envelope",
+      "function": "api.get_docusign_envelope"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/insights/charts",
+      "function": "api.get_insights_financial_analysis"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/insights/charts",
+      "function": "api.get_insights_financial_analysis"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/insights/charts",
+      "function": "api.get_insights_financial_analysis"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/docusign/mnda",
+      "function": "api.generate_docusign_mnda"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/docusign/mnda",
+      "function": "api.generate_docusign_mnda"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/docusign/mnda",
+      "function": "api.get_docusign_mnda"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/docusign/mnda",
+      "function": "api.get_docusign_mnda"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/docusign/mnda",
+      "function": "api.get_docusign_mnda"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/reports/labeled_income_statement",
+      "function": "reports.get_labeled_income_statement_report"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/reports/labeled_income_statement",
+      "function": "reports.get_labeled_income_statement_report"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/reports/labeled_income_statement",
+      "function": "reports.get_labeled_income_statement_report"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/reports/labeled_balance_sheet",
+      "function": "reports.get_labeled_balance_sheet_report"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/reports/labeled_balance_sheet",
+      "function": "reports.get_labeled_balance_sheet_report"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/reports/labeled_balance_sheet",
+      "function": "reports.get_labeled_balance_sheet_report"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/matches/request-introduction",
+      "function": "api.syndication_investor_request_introduction"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/request-introduction",
+      "function": "api.syndication_investor_request_introduction"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/reports/customer_cohorts",
+      "function": "reports.get_customer_cohorts_report"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/reports/customer_cohorts",
+      "function": "reports.get_customer_cohorts_report"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/reports/customer_cohorts",
+      "function": "reports.get_customer_cohorts_report"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/matches/sections/<string:section>",
+      "function": "api.get_syndication_matches"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/sections/<string:section>",
+      "function": "api.get_syndication_matches"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/matches/sections/<string:section>",
+      "function": "api.get_syndication_matches"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/invites/awaiting/",
+      "function": "api.get_company_investor_invites"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/invites/awaiting/",
+      "function": "api.get_company_investor_invites"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/invites/awaiting/",
+      "function": "api.get_company_investor_invites"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/invites/response",
+      "function": "api.wrapper"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/invites/response",
+      "function": "api.wrapper"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/transaction_document_uploaded_email",
+      "function": "api.transaction_document_uploaded_email"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/transaction_document_uploaded_email",
+      "function": "api.transaction_document_uploaded_email"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/company_is_fundraising",
+      "function": "api.get_company_is_fundraising"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/company_is_fundraising",
+      "function": "api.get_company_is_fundraising"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/company_is_fundraising",
+      "function": "api.get_company_is_fundraising"
+    }
+  ],
+  [
+    {
+      "method": "PUT",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/company_is_fundraising",
+      "function": "api.put_company_is_fundraising"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>/company_is_fundraising",
+      "function": "api.put_company_is_fundraising"
+    }
+  ],
+  [
+    {
+      "method": "DELETE",
+      "path": "/api/companies/<int:company_id>/roles/balance_sheet_partner",
+      "function": "api.revoke_balance_sheet_partner_from_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/roles/balance_sheet_partner",
+      "function": "api.revoke_balance_sheet_partner_from_company"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/files/bulk_download/<task_id>",
+      "function": "api.status_bulk_download"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/bulk_download/<task_id>",
+      "function": "api.status_bulk_download"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files/bulk_download/<task_id>",
+      "function": "api.status_bulk_download"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/files/bulk_download",
+      "function": "api.bulk_download_start_download"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/bulk_download",
+      "function": "api.bulk_download_start_download"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>/download_url",
+      "function": "api.redirect_to_file_location"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>/download_url",
+      "function": "api.redirect_to_file_location"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>/download_url",
+      "function": "api.redirect_to_file_location"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>/download",
+      "function": "api.download_file"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>/download",
+      "function": "api.download_file"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>/download",
+      "function": "api.download_file"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/files/<int:data_asset_id>/<string:data_type>/download",
+      "function": "api.download_quickbooks_financial_statement"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/<int:data_asset_id>/<string:data_type>/download",
+      "function": "api.download_quickbooks_financial_statement"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files/<int:data_asset_id>/<string:data_type>/download",
+      "function": "api.download_quickbooks_financial_statement"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/investor/portfolio/<int:company_id>/invite-url",
+      "function": "api.get_portfolio_monitoring_company_invite_url"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/investor/portfolio/<int:company_id>/invite-url",
+      "function": "api.get_portfolio_monitoring_company_invite_url"
+    },
+    {
+      "method": "GET",
+      "path": "/api/investor/portfolio/<int:company_id>/invite-url",
+      "function": "api.get_portfolio_monitoring_company_invite_url"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/matches/<int:match_id>/status/history",
+      "function": "api.get_match_status_history"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/matches/<int:match_id>/status/history",
+      "function": "api.get_match_status_history"
+    },
+    {
+      "method": "GET",
+      "path": "/api/matches/<int:match_id>/status/history",
+      "function": "api.get_match_status_history"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks/<task_id>",
+      "function": "api.status_financial_documents_v2"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks/<task_id>",
+      "function": "api.status_financial_documents_v2"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks/<task_id>",
+      "function": "api.status_financial_documents_v2"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks",
+      "function": "api.start_download_v2"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v2/companies/<int:company_id>/analytics_download_tasks",
+      "function": "api.start_download_v2"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>",
+      "function": "api.update_funding_opportunity"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>",
+      "function": "api.update_funding_opportunity"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>",
+      "function": "api.get_funding_opportunity"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>",
+      "function": "api.get_funding_opportunity"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities/<string:funding_opportunity_id>",
+      "function": "api.get_funding_opportunity"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities",
+      "function": "api.create_funding_opportunity"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities",
+      "function": "api.create_funding_opportunity"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities",
+      "function": "api.get_funding_opportunities"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities",
+      "function": "api.get_funding_opportunities"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/funding_opportunities",
+      "function": "api.get_funding_opportunities"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/financial_documents",
+      "function": "api.get_financial_documents"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/financial_documents",
+      "function": "api.get_financial_documents"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/financial_documents",
+      "function": "api.get_financial_documents"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile",
+      "function": "api.get_company_private_teaser_profile"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile",
+      "function": "api.get_company_private_teaser_profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile",
+      "function": "api.get_company_private_teaser_profile"
+    }
+  ],
+  [
+    {
+      "method": "PUT",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile",
+      "function": "api.update_profile"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/teaser_profile",
+      "function": "api.update_profile"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/public_charts",
+      "function": "api.get_company_public_charts_info"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/public_charts",
+      "function": "api.get_company_public_charts_info"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/public_charts",
+      "function": "api.get_company_public_charts_info"
+    }
+  ],
+  [
+    {
+      "method": "DELETE",
+      "path": "/api/v1/companies/<int:company_id>/connectors/<int:connector_id>",
+      "function": "api.delete_connector"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/connectors/<int:connector_id>",
+      "function": "api.delete_connector"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/connectors",
+      "function": "api.create_connector"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/connectors",
+      "function": "api.create_connector"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_type>",
+      "function": "api.create_creditbox_report"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_type>",
+      "function": "api.create_creditbox_report"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_id>",
+      "function": "api.get_creditbox_report"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_id>",
+      "function": "api.get_creditbox_report"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/reports/<string:report_id>",
+      "function": "api.get_creditbox_report"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/reports",
+      "function": "api.get_creditbox_reports"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/reports",
+      "function": "api.get_creditbox_reports"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/reports",
+      "function": "api.get_creditbox_reports"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/signup",
+      "function": "api.updateSignupv5"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/companies/<int:company_id>/signup",
+      "function": "api.updateSignupv5"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/companies/<int:company_id>/extra",
+      "function": "api.get_zoominfo_data"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/companies/<int:company_id>/extra",
+      "function": "api.get_zoominfo_data"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/companies/<int:company_id>/extra",
+      "function": "api.get_zoominfo_data"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/v5/companies/<int:company_id>/mnda",
+      "function": "api.post_company_admin_sign_mnda"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v5/companies/<int:company_id>/mnda",
+      "function": "api.post_company_admin_sign_mnda"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/has_quickbooks_connectors",
+      "function": "api.has_quickbooks_connectors"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/has_quickbooks_connectors",
+      "function": "api.has_quickbooks_connectors"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/has_quickbooks_connectors",
+      "function": "api.has_quickbooks_connectors"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks/<task_id>",
+      "function": "api.status_financial_documents"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks/<task_id>",
+      "function": "api.status_financial_documents"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks/<task_id>",
+      "function": "api.status_financial_documents"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks",
+      "function": "api.start_download"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/analytics_download_tasks",
+      "function": "api.start_download"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/principal-investments",
+      "function": "api.add_principal_investment"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/principal-investments",
+      "function": "api.add_principal_investment"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/principal-investments",
+      "function": "api.get_company_principal_investments"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/principal-investments",
+      "function": "api.get_company_principal_investments"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/principal-investments",
+      "function": "api.get_company_principal_investments"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/principal-investments",
+      "function": "api.update_principal_investment_status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/principal-investments",
+      "function": "api.update_principal_investment_status"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/analytics_permissions",
+      "function": "api.analytics_get_permissions"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/analytics_permissions",
+      "function": "api.analytics_get_permissions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/analytics_permissions",
+      "function": "api.analytics_get_permissions"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portfolio-connectors",
+      "function": "api.get_company_portfolio_status"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portfolio-connectors",
+      "function": "api.get_company_portfolio_status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portfolio-connectors",
+      "function": "api.get_company_portfolio_status"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/capital_application",
+      "function": "api.update_company_capital_application"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/capital_application",
+      "function": "api.update_company_capital_application"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/financial_insights",
+      "function": "api.get_financial_insights"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/financial_insights",
+      "function": "api.get_financial_insights"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/financial_insights",
+      "function": "api.get_financial_insights"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/data_assets_rows",
+      "function": "api.get_data_assets_rows"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_assets_rows",
+      "function": "api.get_data_assets_rows"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_assets_rows",
+      "function": "api.get_data_assets_rows"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/company_analysis",
+      "function": "api.get_company_analyses"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/company_analysis",
+      "function": "api.get_company_analyses"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/company_analysis",
+      "function": "api.get_company_analyses"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/company_analysis",
+      "function": "api.create_company_analysis"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/company_analysis",
+      "function": "api.create_company_analysis"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/invite_company",
+      "function": "api.company_investor_invite_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/invite_company",
+      "function": "api.company_investor_invite_company"
+    }
+  ],
+  [
+    {
+      "method": "PUT",
+      "path": "/api/companies/<int:company_id>/data_mappings/<int:data_mapping_id>",
+      "function": "api.update_data_mappings"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_mappings/<int:data_mapping_id>",
+      "function": "api.update_data_mappings"
+    }
+  ],
+  [
+    {
+      "method": "DELETE",
+      "path": "/api/companies/<int:company_id>/data_mappings/<int:data_mapping_id>",
+      "function": "api.delete_data_mappings"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_mappings/<int:data_mapping_id>",
+      "function": "api.delete_data_mappings"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/data_sources",
+      "function": "api.get_data_sources"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_sources",
+      "function": "api.get_data_sources"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_sources",
+      "function": "api.get_data_sources"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/invitations/<int:invited_company_id>",
+      "function": "api.company_investor_update_company"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/invitations/<int:invited_company_id>",
+      "function": "api.company_investor_update_company"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/invitations",
+      "function": "api.get_companies_invited_by"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/invitations",
+      "function": "api.get_companies_invited_by"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/invitations",
+      "function": "api.get_companies_invited_by"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/data_assets",
+      "function": "api.get_data_asset_list"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_assets",
+      "function": "api.get_data_asset_list"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_assets",
+      "function": "api.get_data_asset_list"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/data_labels",
+      "function": "api.get_data_labels"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_labels",
+      "function": "api.get_data_labels"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/data_labels",
+      "function": "api.get_data_labels"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/data_labels",
+      "function": "api.create_data_labels"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/data_labels",
+      "function": "api.create_data_labels"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/auto_label/<string:task_id>",
+      "function": "api.get_auto_label_task"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/auto_label/<string:task_id>",
+      "function": "api.get_auto_label_task"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/auto_label/<string:task_id>",
+      "function": "api.get_auto_label_task"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/auto_label",
+      "function": "api.create_auto_label_task"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/auto_label",
+      "function": "api.create_auto_label_task"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/connectors",
+      "function": "api.get_company_connector_list"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/connectors",
+      "function": "api.get_company_connector_list"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/connectors",
+      "function": "api.get_company_connector_list"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/onboarding",
+      "function": "api.patch_company_onboarding"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/onboarding",
+      "function": "api.patch_company_onboarding"
+    }
+  ],
+  [
+    {
+      "method": "DELETE",
+      "path": "/api/companies/<int:company_id>/portfolio/<int:company_to_remove_id>",
+      "function": "api.remove_company_portfolio"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portfolio/<int:company_to_remove_id>",
+      "function": "api.remove_company_portfolio"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/portfolio",
+      "function": "api.get_company_portfolio"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portfolio",
+      "function": "api.get_company_portfolio"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/portfolio",
+      "function": "api.get_company_portfolio"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/investors",
+      "function": "api.get_company_investors"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/investors",
+      "function": "api.get_company_investors"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/investors",
+      "function": "api.get_company_investors"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/portfolio",
+      "function": "api.add_company_portfolio"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/portfolio",
+      "function": "api.add_company_portfolio"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/settings",
+      "function": "api.get_settings"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/settings",
+      "function": "api.get_settings"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/settings",
+      "function": "api.get_settings"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/settings",
+      "function": "api.add_settings"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/settings",
+      "function": "api.add_settings"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/notices/<string:notice_name>",
+      "function": "api.get_company_notice_status"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/notices/<string:notice_name>",
+      "function": "api.get_company_notice_status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/notices/<string:notice_name>",
+      "function": "api.get_company_notice_status"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>",
+      "function": "api.get_syndication_match"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>",
+      "function": "api.get_syndication_match"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>",
+      "function": "api.get_syndication_match"
+    }
+  ],
+  [
+    {
+      "method": "PUT",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>",
+      "function": "api.response_match_update_status"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/matches/<string:match_uuid>",
+      "function": "api.response_match_update_status"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/contact",
+      "function": "api.get_company_contact"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/contact",
+      "function": "api.get_company_contact"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/contact",
+      "function": "api.get_company_contact"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/notices",
+      "function": "api.create_company_notice"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/notices",
+      "function": "api.create_company_notice"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/notices",
+      "function": "api.get_notices_by_names"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/notices",
+      "function": "api.get_notices_by_names"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/notices",
+      "function": "api.get_notices_by_names"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/charts/<string:tab_name>",
+      "function": "api.get_charts_by_tab_name"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/charts/<string:tab_name>",
+      "function": "api.get_charts_by_tab_name"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/charts/<string:tab_name>",
+      "function": "api.get_charts_by_tab_name"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>",
+      "function": "api.get_file"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>",
+      "function": "api.get_file"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>",
+      "function": "api.get_file"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>",
+      "function": "api.update_file"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>",
+      "function": "api.update_file"
+    }
+  ],
+  [
+    {
+      "method": "DELETE",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>",
+      "function": "api.delete_file"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files/<int:file_id>",
+      "function": "api.delete_file"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/roles",
+      "function": "api.turn_company_into_balance_sheet_partner"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/roles",
+      "function": "api.turn_company_into_balance_sheet_partner"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/users",
+      "function": "api.get_company_users"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/users",
+      "function": "api.get_company_users"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/users",
+      "function": "api.get_company_users"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/files",
+      "function": "api.get_file_list_by_company"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files",
+      "function": "api.get_file_list_by_company"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/files",
+      "function": "api.get_file_list_by_company"
+    }
+  ],
+  [
+    {
+      "method": "POST",
+      "path": "/api/companies/<int:company_id>/files",
+      "function": "api.create_file"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/files",
+      "function": "api.create_file"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/tags",
+      "function": "api.update_tags"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>/tags",
+      "function": "api.update_tags"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/mnda",
+      "function": "api.get_company_contact_sign_mnda"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/mnda",
+      "function": "api.get_company_contact_sign_mnda"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/mnda",
+      "function": "api.get_company_contact_sign_mnda"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>/<data_type>/download",
+      "function": "api.download_unlabeled_csv_by_data_type"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>/<data_type>/download",
+      "function": "api.download_unlabeled_csv_by_data_type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>/<data_type>/download",
+      "function": "api.download_unlabeled_csv_by_data_type"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/matches/<int:match_id>/status",
+      "function": "api.update_match_status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/matches/<int:match_id>/status",
+      "function": "api.update_match_status"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/users/<int:user_id>/roles",
+      "function": "api.get_user_roles"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/<int:user_id>/roles",
+      "function": "api.get_user_roles"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/<int:user_id>/roles",
+      "function": "api.get_user_roles"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/users/<string:token>/tos",
+      "function": "api.get_user_tos_acceptance"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/<string:token>/tos",
+      "function": "api.get_user_tos_acceptance"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/<string:token>/tos",
+      "function": "api.get_user_tos_acceptance"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/v1/public_analytics_download_tasks/<task_id>",
+      "function": "api.status_public_download"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/public_analytics_download_tasks/<task_id>",
+      "function": "api.status_public_download"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/public_analytics_download_tasks/<task_id>",
+      "function": "api.status_public_download"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/v1/connector_configs/<int:connector_config_id>",
+      "function": "api.patch_connector_config"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/connector_configs/<int:connector_config_id>",
+      "function": "api.patch_connector_config"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/connector/<int:connector_id>",
+      "function": "internal.update_connector"
+    },
+    {
+      "method": "PATCH",
+      "path": "/internal_api/connector/<int:connector_id>",
+      "function": "internal.update_connector"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/company/<int:company_id>",
+      "function": "internal.update_company"
+    },
+    {
+      "method": "PATCH",
+      "path": "/internal_api/company/<int:company_id>",
+      "function": "internal.update_company"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/internal_api/company/<int:company_id>",
+      "function": "internal.get_company_info"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/company/<int:company_id>",
+      "function": "internal.get_company_info"
+    },
+    {
+      "method": "GET",
+      "path": "/internal_api/company/<int:company_id>",
+      "function": "internal.get_company_info"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/internal_api/files/<int:file_id>",
+      "function": "internal.update_file_ingestion_status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/internal_api/files/<int:file_id>",
+      "function": "internal.update_file_ingestion_status"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/capital_applications/<int:application_id>",
+      "function": "api.update_capital_application"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/capital_applications/<int:application_id>",
+      "function": "api.update_capital_application"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/appearance/<string:subdomain>",
+      "function": "api.get_appearance_for_subdomain"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/appearance/<string:subdomain>",
+      "function": "api.get_appearance_for_subdomain"
+    },
+    {
+      "method": "GET",
+      "path": "/api/appearance/<string:subdomain>",
+      "function": "api.get_appearance_for_subdomain"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/companies/<int:company_id>",
+      "function": "api.get_company_by_id"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>",
+      "function": "api.get_company_by_id"
+    },
+    {
+      "method": "GET",
+      "path": "/api/companies/<int:company_id>",
+      "function": "api.get_company_by_id"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/companies/<int:company_id>",
+      "function": "api.update_company"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/companies/<int:company_id>",
+      "function": "api.update_company"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/invites/<token>",
+      "function": "api.get_invite"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/invites/<token>",
+      "function": "api.get_invite"
+    },
+    {
+      "method": "GET",
+      "path": "/api/invites/<token>",
+      "function": "api.get_invite"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/<int:user_id>",
+      "function": "api.update_user"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/users/<int:user_id>",
+      "function": "api.update_user"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/api/users/<int:user_id>",
+      "function": "api.get_user_by_id"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/<int:user_id>",
+      "function": "api.get_user_by_id"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/<int:user_id>",
+      "function": "api.get_user_by_id"
+    }
+  ],
+  [
+    {
+      "method": "DELETE",
+      "path": "/api/users/<int:user_id>",
+      "function": "api.delete_user"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/users/<int:user_id>",
+      "function": "api.delete_user"
+    }
+  ],
+  [
+    {
+      "method": "OPTIONS",
+      "path": "/api/user/<int:user_id>",
+      "function": "api.update_user"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user/<int:user_id>",
+      "function": "api.update_user"
+    }
+  ],
+  [
+    {
+      "method": "HEAD",
+      "path": "/static/<path:filename>",
+      "function": "static"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/static/<path:filename>",
+      "function": "static"
+    },
+    {
+      "method": "GET",
+      "path": "/static/<path:filename>",
+      "function": "static"
+    }
+  ]
+] 
